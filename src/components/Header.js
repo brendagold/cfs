@@ -53,7 +53,7 @@ const Header = (props) => {
             </li>
             <li>
               <NavLink to="/" className={`${open ? 'search' : ''}`}>
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
               </NavLink>
             </li>
           </ul>
