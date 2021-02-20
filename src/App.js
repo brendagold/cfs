@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 //import 'bulma/css/bulma.css';
-import Navbar from './components/Navbar';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Scores from './components/Scores';
