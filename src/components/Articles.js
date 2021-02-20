@@ -15,15 +15,15 @@ const Articles = () => {
         <div>
           <img src={`${process.env.PUBLIC_URL}/images/image1.png`} />
 
-          <p className="legend">Legend 1</p>
+         
         </div>
         <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
+          <img src={`${process.env.PUBLIC_URL}/images/image1.png`} />
+         
         </div>
         <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
+          <img src={`${process.env.PUBLIC_URL}/images/image1.png`} />
+          
         </div>
       </Carousel>
 
