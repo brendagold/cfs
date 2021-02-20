@@ -6,9 +6,9 @@ import "./css/articles.css";
 const Articles = () => {
   return (
     <div className="articles">
-      <div>
+      <div className="article-header">
         <h3>
-          LATEST <br /> ARTICLE NEWS
+          LATEST <br /> ARTICLES NEWS
         </h3>
       </div>
       <Carousel>
