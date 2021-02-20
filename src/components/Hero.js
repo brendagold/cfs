@@ -6,7 +6,7 @@ import "./css/hero.css";
 const Hero = () => {
   return (
     <div className="hero">
-      <Carousel showArrows={false}>
+      <Carousel showArrows={false} infiniteLoop autoPlay>
         <div>
           <img src={`${process.env.PUBLIC_URL}/images/banner03.png`} />
           <div className="hero-content">
