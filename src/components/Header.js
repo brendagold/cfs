@@ -30,7 +30,7 @@ const Header = (props) => {
             </a>
           </div>
           <hr className="nav-line" />
-          <div class="vl"></div>
+          <div className="vl"></div>
           </div>
           <ul>
             <li>
