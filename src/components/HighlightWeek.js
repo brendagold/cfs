@@ -10,11 +10,11 @@ const HighlightWeek = () => {
   return (
     <>
       <div className="row mt-4">
-        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4">
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-8">
           <h4 className="scroll-y-hidden font-weight-bold pl-5">HIGHLIGHTS</h4>
           <h4 className="scroll-y-hidden font-weight-bold pl-5">WEEK</h4>
         </div>
-        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4">
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
           <div className="mt-4 scroll-y-hidden">
             {" "}
             <a href="">

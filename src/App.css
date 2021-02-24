@@ -13,7 +13,7 @@ a, a:hover {
 }
 
 .color-gray {
-  color: #a79a9a !important;
+  color: #2f2c2c !important;
 }
 
 header {
@@ -219,29 +219,108 @@ header {
   left: 3rem;
 }
 
-.about-card-body-md {
+.card-img-overlay {
+  background: linear-gradient(0, #6569ec, #17141457);
+  opacity: 0.8;
+}
+
+.contianer-about-card {
   background: white;
   position: absolute;
-  top: 5rem;
-  right: -9.4rem;
+  top: 18%;
+  right: 19.2%;
+}
+
+.font-size-lg {
+  font-size: 1.5em;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 767px) {
+  .contianer-about-card {
+      position: unset;
+      top: 0;
+      right: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .first-right-score-position {
+      top: 2.4rem !important;
+      left: 9.5rem !important;
+  }
+
+  .card-text-sizing {
+      font-size: 1.4rem;
+  }
+
+  .card-text-position {
+      color: white;
+      line-height: 1;
+      top: 2rem;
+  }
+
+  .card-text-position-two {
+      top: 10rem !important;
+      line-height: 0.7;
+      font-size: 1.1rem;
+  }
+
+  .h3, h3 {
+      font-size: 1.25rem;
+  }
+
+  .h1, h1 {
+      font-size: 0.9rem;
+  }
+
+  .p, p {
+      font-size: 0.7rem !important;
+  }
+
+  .more-link {
+      font-size: 0.3rem !important;
+  }
+
+  .top-carousel-indicators {
+      bottom: 0 !important;
+  }
+
+  .carousel-inner .carousel-item > div {
+      display: block;
+  }
+
+  .latest-news-img-lg {
+      width: 100% !important;
+  }
+
+  .carousel-caption {
+      top: -1rem;
+      left: 0.7rem;
+  }
+
+  .footer-list {
+      border: none !important;
+      line-height: 0.1rem;
+      overflow-y: hidden;
+      font-size: 0.7rem;
+  }
+
+  .list-group-item {
+      padding: 0.4rem 1.25rem !important;
+  }
+
+  .font-xs {
+      font-size: 0.8rem!important;
+  }
+}
+
+.overflow-y-hidden {
   overflow-y: hidden;
 }
 
-.aboutus-card-horizontal {
-  display: flex;
-  flex: 1 1 auto;
-  height: 30em;
-}
-
-.aboutus-card-body {
-  width: 30%;
-  border: 1px solid #80808008;
-  height: fit-content;
-  text-align: justify;
-}
-
-.about-card-title {
-  width: fit-content;
+.color-gray-light {
+  color: #d6c9c9;
 }
 
 .font-lg {
@@ -284,11 +363,11 @@ header {
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item > div {
-    display: none;
+      display: none;
   }
 
   .carousel-inner .carousel-item > div:first-child {
-    display: block;
+      display: block;
   }
 }
 
@@ -303,12 +382,12 @@ header {
 
   .carousel-inner .carousel-item-right.active,
   .carousel-inner .carousel-item-next {
-    transform: translateX(33.333%);
+      transform: translateX(33.333%);
   }
 
   .carousel-inner .carousel-item-left.active,
   .carousel-inner .carousel-item-prev {
-    transform: translateX(-33.333%);
+      transform: translateX(-33.333%);
   }
 }
 
@@ -321,6 +400,7 @@ header {
   max-width: 50%;
   max-height: 50%;
 }
+
 .about-background:after {
   content: '';
   position: absolute;
@@ -351,7 +431,7 @@ header {
 }
 
 .first-right-score-position {
-  top: 2.6rem;
+  top: 2.1rem;
   left: 10.5rem;
 }
 
@@ -364,14 +444,22 @@ header {
   top: 2.31rem;
   left: 9.5rem;
 }
-.about-us-container{
+
+.about-us-container {
   top: 4rem;
   right: -22rem;
 }
+
+.figure-caption {
+  text-align: center;
+}
+
 /*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
   background-color: #F5F5F5 !important;
+
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
 }
 
 ::-webkit-scrollbar {
