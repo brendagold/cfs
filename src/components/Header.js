@@ -1,65 +1,93 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React from "react";
+import logo from "../images/cer-logo.png";
 
-import "./css/header.css";
-
-
-const Header = (props) => {
-  const [open, setOpen] = useState(false);
+const Header = () => {
   return (
-    
-      <nav className="navvbar">
-        <div className="brand-title">
-          <Link to="/">
-            <img src={`${process.env.PUBLIC_URL}/images/cer-logo.png`} alt="Logo" className="logo" />
-          </Link>
-        </div>
-        <a className="toggle-btn" onClick={() => setOpen(!open)}>
-          <span className="hamburger"></span>
-          <span className="hamburger"></span>
-          <span className="hamburger"></span>
-
-        </a>
-
-        
-        <div className={`navbar-links ${open ? 'active' : ''}`}>
-          <div className="toppy">
-          <div className="topbar">
-            <a href="#S">
-              <span className="login">LOGIN</span> / REGISTER
-            </a>
+    <header className="row">
+      <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 border-right header-border-color">
+        <img src={logo} alt="logo" className="pl-xl-5 pl-lg-3 " />
+      </div>
+      <div className="col-xl-9 col-lg-9 col-md-9 col-sm-6">
+        <div className="row">
+          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 border-bottom header-border-color text-right pt-3 pr-4">
+            <label>
+              <a href="">
+                <span className="color-blue"> LOGIN</span>{" "}
+              </a>
+              /<a href=""> SIGN UP</a>
+            </label>
           </div>
-          <hr className="nav-line" />
-          <div className="vl"></div>
-          </div>
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/go">NFL</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">NCAAF</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">News</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">Help</NavLink>
-            </li>
-            <li>
-              <NavLink to="/">about</NavLink>
-            </li>
-            <li>
-              <NavLink to="/" className={`${open ? 'search' : ''}`}>
-                <i className="fas fa-search"></i>
-              </NavLink>
-            </li>
-          </ul>
         </div>
-      </nav>
-   
+        <div className="row">
+          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+            <nav className="navbar navbar-expand-lg navbar-dark ">
+              <a className="navbar-brand" href="#"></a>
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div
+                className="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul className="navbar-nav mr-auto">
+                  <li className="nav-item active pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      Home <span className="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      NFL
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      NCAAF
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      STATS
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      FANTASY
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      NEWS
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      HELP
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
+                      ABOUT
+                    </a>
+                  </li>
+                </ul>
+                <span className="navbar-text">
+                  {/*<i className="fas fa-search"></i>*/}
+                </span>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

@@ -3,21 +3,28 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 //import 'bulma/css/bulma.css';
-
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Scores from './components/Scores';
-import Articles from './components/Articles';
-import Highlight from './components/Highlight';
+import MainCarousel from './components/MainCarousel';
+import MatchSchedule from './components/MatchSchedule';
+import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
+import ArticleNews from './components/ArticleNews';
+import PodCast from './components/PodCast';
+import HighlightWeek from './components/HighlightWeek';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Hero />
-      
-      <Articles />
-      <Highlight />
+      <Header />
+      <MainCarousel />
+      <MatchSchedule />
+      <ArticleNews />
+      <PodCast />
+      <HighlightWeek />
+      <AboutUs />
+      <Footer />
     </div>
   );
 }
