@@ -35,7 +35,7 @@ class MatchSchedule extends Component {
       <>
         <div className="row pt-4 bg-black">
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4">
-            <h4 className="scroll-y-hidden font-weight-bold pl-5">Match</h4>
+            <h4 className="scroll-y-hidden font-weight-bold pl-5">Game</h4>
             <h4 className="scroll-y-hidden font-weight-bold pl-5">Schedule</h4>
           </div>
           <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 pl-5">
