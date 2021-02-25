@@ -65,6 +65,11 @@ const Header = () => {
                   </li>
                   <li className="nav-item pr-xl-5 pr-lg-4">
                     <a className="nav-link" href="#">
+                      ARTICLES
+                    </a>
+                  </li>
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                    <a className="nav-link" href="#">
                       NEWS
                     </a>
                   </li>
