@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import ArticleNews from './components/ArticleNews';
 import PodCast from './components/PodCast';
 import HighlightWeek from './components/HighlightWeek';
+import Article from './components/Article';
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <Header />
       <MainCarousel />
       <MatchSchedule />
-      <ArticleNews />
+      <Article />
       <PodCast />
       <HighlightWeek />
       <AboutUs />

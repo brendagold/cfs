@@ -16,6 +16,11 @@ a, a:hover {
   color: #2f2c2c !important;
 }
 
+.article-car-img {
+  display: flex;
+  margin: auto;
+}
+
 header {
   background-color: black;
   color: white;
@@ -237,6 +242,49 @@ header {
   width: fit-content;
 }
 
+.article-caro img  {  
+
+        height: 460px;
+        width:100%;
+        
+} 
+
+.article-caro {
+  overflow-y: hidden;
+}
+
+/* .article-caro .small-img {
+  width: 221px !important;
+  height: 221px !important;
+} */
+
+ div.card-horizontal.mb-6 > img {
+  width: auto !important;
+  height: auto !important;
+}
+
+/* .owl-item.active img {
+  
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.5);
+  transform: scale(1.2);
+}
+
+.owl-item.active img {
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.5);
+  transform: scale(1);
+} */
+
+/* .owl-carousel .owl-item img {
+  width: 60% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative;
+  top: 35px;
+} */
+
 @media only screen and (max-width: 1024px) {
 
   .latest-news-card-body-md {
@@ -457,7 +505,20 @@ header {
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
-  height: 8rem;
+  height: 10rem;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 400px;
+  margin-top: 20px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+#root > div > div.article-caro > div > div.owl-stage-outer > div {
+  height: 500px;
+  margin-top: 20px;
 }
 
 .latest-news-carousel-inner-bg {
@@ -479,6 +540,21 @@ header {
 
   .carousel-inner .carousel-item > div:first-child {
       display: block;
+  }
+
+  .article-caro img {
+    height: 300px !important;
+  }
+
+  .card-horizontal {
+    height: 7rem;
+    width: 300px;
+    margin-left: 8px;
+  }
+
+  #root > div > div.article-caro > div > div.owl-stage-outer > div {
+    height: 300px;
+    margin-top: 10px;
   }
 }
 
