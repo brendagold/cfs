@@ -256,8 +256,11 @@ header {
 } 
 
 .article-caro {
-  overflow-y: hidden;
+  overflow: hidden;
 }
+
+.owl-item {height: 0;}    
+.owl-item.active {height: auto;}
 
 /* .article-caro .small-img {
   width: 221px !important;
@@ -443,7 +446,8 @@ header {
   }
 
   .top-carousel-indicators {
-      bottom: 0 !important;
+      bottom: -1rem !important;
+     
   }
 
   .carousel-inner .carousel-item > div {
@@ -479,9 +483,7 @@ header {
       padding-top: 2rem;
   }
 
-  #matchScheduleCarousel > div > div.carousel-item.matchScheduleCarousel-item > figure > img {
-    width: 80% !important;
-  }
+  
 }
 
 .overflow-y-hidden {
@@ -566,6 +568,11 @@ header {
     height: 300px;
     margin-top: 10px;
   }
+  .top-carousel-indicators {
+    bottom: -1rem !important;
+    left: 3.6rem !important;
+   
+}
 }
 
 .carousel-inner .carousel-item.active,
