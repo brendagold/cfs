@@ -7,7 +7,7 @@ import image2 from "../images/article2.png";
 import image3 from "../images/article3.png";
 import image4 from "../images/article4.png";
 import $ from "jquery";
-import { CarouselWrapper } from "react-pretty-carousel";
+
 
 const Article = () => {
   const options = {

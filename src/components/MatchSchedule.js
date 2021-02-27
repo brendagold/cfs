@@ -38,7 +38,7 @@ class MatchSchedule extends Component {
                 <h4 className="scroll-y-hidden font-weight-bold pl-5">Schedule</h4>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6 pl-5">
-                  <div className="mt-md-4 scroll-y-hidden"> <a href=""><span className="align-bottom more-link text-dark">More</span></a><br/><br/></div>
+                  <div className="mt-md-4 scroll-y-hidden"> <a href=""><span className="align-bottom more-link1">More</span></a><br/><br/></div>
             </div>
             <div className="col-xl-6 col-lg-4 col-md-4 col-sm-4  col-6 scroll-y-hidden">
                     <div className="float-right"> <span className="text-black-50">s</span>

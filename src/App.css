@@ -55,6 +55,12 @@ header {
   border-bottom: 4px solid #007bff !important;
 }
 
+.more-link1 {
+  border-bottom: 4px solid #007bff !important;
+  color: #515a63 !important;
+  margin-left: 17px;
+}
+
 .img-bottom-caption {
   position: absolute;
   right: 15%;
@@ -465,12 +471,16 @@ header {
   }
 
   .font-xs {
-      font-size: 1rem !important;
+      font-size: 0.5rem !important;
   }
   .copy-right{
       text-align: left !important;
       padding-left: 3rem !important;
       padding-top: 2rem;
+  }
+
+  #matchScheduleCarousel > div > div.carousel-item.matchScheduleCarousel-item > figure > img {
+    width: 80% !important;
   }
 }
 
