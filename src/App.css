@@ -544,6 +544,12 @@ header {
 .right-xs {
   right: 4rem;
 }
+@media (max-width: 380px) {
+  .card-horizontal {
+    width: 320px !important;
+    margin-left: 1.5rem !important;
+  }
+}
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item > div {
@@ -560,8 +566,8 @@ header {
 
   .card-horizontal {
     height: 7rem;
-    width: 300px;
-    margin-left: 8px;
+    width: 350px;
+    margin-left: 2.5rem;
   }
 
   #root > div > div.article-caro > div > div.owl-stage-outer > div {
