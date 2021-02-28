@@ -52,13 +52,13 @@
           display: none;
       }
   }
-
+/* 
   @media (min-width: 1025px) and (max-width: 1445px) {
     .thumbnail {
         right: -35% !important;
         bottom: 15% !important;
     } 
-  }
+  } */
 
   @media (min-width: 769px) and (max-width: 1024px) {
     .thumbnail {
