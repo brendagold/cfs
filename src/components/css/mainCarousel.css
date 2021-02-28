@@ -1,0 +1,68 @@
+.thumbnail {
+  margin: 12px 0 0;
+  /* padding: 0 45px; */
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  bottom: -18%;
+  right: -35%;
+  
+}
+
+.thumbnail .item {
+  
+  display: flex;
+}
+
+.thumbnail .item .thumb {
+  
+  width: 350px !important;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  
+}
+
+.card-vertical {
+    display: flex;
+    /* flex: 1 1 auto; */
+    
+    height: 9rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    color: white;
+    background-color: blue;
+    
+  }
+
+  .thumb-link {
+    border-bottom: 4px solid #ffffff !important;
+  }
+
+  .card-vertical img {
+      width: 120px !important;
+      height: 144px !important;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+      .thumbnail {
+          display: none;
+      }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1445px) {
+    .thumbnail {
+        right: -35% !important;
+        bottom: 15% !important;
+    } 
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .thumbnail {
+        right: -25% !important;
+        bottom: 18% !important;
+    } 
+  }

@@ -447,6 +447,7 @@ header {
 
   .top-carousel-indicators {
       bottom: -1rem !important;
+      left: 1rem !important;
      
   }
 
@@ -523,6 +524,8 @@ header {
   width: 400px;
   margin-top: 20px;
 }
+
+
 
 .card-title {
   margin-top: 10px;
