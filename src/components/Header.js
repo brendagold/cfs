@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import logo from "../images/cer-logo.png";
 import "./css/header.css";
 
@@ -10,7 +10,6 @@ const Header = () => {
         <a href="/">
           <img src={logo} alt="logo" className="pl-xl-5 pl-lg-3 " />
         </a>
-        
       </div>
       <div className="col-xl-9 col-lg-9 col-md-9 col-sm-6">
         <div className="row">
@@ -88,7 +87,21 @@ const Header = () => {
                       ABOUT
                     </a>
                   </li>
-               
+
+                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <div className={`search ${open ? "active" : ""}`}>
+                  <input
+                    type="text"
+                    name="search"
+                    id="search"
+                    placeholder="Search..."
+                    style={{ display: open ? "block" : "none" }}
+                  />
+                  <div className="icon" onClick={() => setOpen(!open)}>
+                    <i className={`fas ${open ? "fa-times" : "fa-search"}`}></i>
+                  </div>
+                </div>
+                  </li>
                 </ul>
                 {/* <span className="navbar-text">
                 <a className="nav-link" href="#">
@@ -96,12 +109,18 @@ const Header = () => {
                     </a>
                   
                 </span> */}
-                <div className={`search ${open ? 'active' : ''}`} >
-                  <input type="text" name="search" id="search" placeholder="Search..." style={{display: open ? 'block' : 'none' }}/>
+                {/* <div className={`search ${open ? "active" : ""}`}>
+                  <input
+                    type="text"
+                    name="search"
+                    id="search"
+                    placeholder="Search..."
+                    style={{ display: open ? "block" : "none" }}
+                  />
                   <div className="icon" onClick={() => setOpen(!open)}>
-                  <i className={`fas ${open ? 'fa-times' : 'fa-search'}`}></i>
+                    <i className={`fas ${open ? "fa-times" : "fa-search"}`}></i>
                   </div>
-                </div>
+                </div> */}
               </div>
             </nav>
           </div>

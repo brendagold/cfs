@@ -43,7 +43,7 @@ const MainCarousel = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <img src={image5} className="d-block w-100" alt="..." />
+              <img src={image1} className="d-block w-100" alt="..." />
               <div className="carousel-caption d-block  text-left pl-md-5 bg-transparent">
                 <span className="bg-primary scroll-y-hidden px-md-2 py-md-1 font-weight-bold">
                   Club
