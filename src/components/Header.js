@@ -94,7 +94,7 @@ const Header = () => {
                   
                 </span> */}
                 <div className={`search ${open ? 'active' : ''}`} >
-                  <input type="text" name="search" id="search" placeholder="Search..." />
+                  <input type="text" name="search" id="search" placeholder="Search..." style={{display: open ? 'block' : 'none' }}/>
                   <div className="icon" onClick={() => setOpen(!open)}>
                   <i className={`fas ${open ? 'fa-times' : 'fa-search'}`}></i>
                   </div>
