@@ -7,7 +7,10 @@ const Header = () => {
   return (
     <header className="row">
       <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 border-right header-border-color">
-        <img src={logo} alt="logo" className="pl-xl-5 pl-lg-3 " />
+        <a href="/">
+          <img src={logo} alt="logo" className="pl-xl-5 pl-lg-3 " />
+        </a>
+        
       </div>
       <div className="col-xl-9 col-lg-9 col-md-9 col-sm-6">
         <div className="row">
