@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../images/cer-logo.png";
+import "./css/header.css";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <header className="row">
       <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 border-right header-border-color">
@@ -38,11 +40,11 @@ const Header = () => {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav mr-auto">
-                  <li className="nav-item active pr-xl-5 pr-lg-4">
+                  {/* <li className="nav-item active pr-xl-5 pr-lg-4">
                     <a className="nav-link" href="#">
                       Home <span className="sr-only">(current)</span>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item pr-xl-5 pr-lg-4">
                     <a className="nav-link" href="#">
                       NFL
@@ -83,10 +85,20 @@ const Header = () => {
                       ABOUT
                     </a>
                   </li>
+               
                 </ul>
-                <span className="navbar-text">
-                  {/*<i className="fas fa-search"></i>*/}
-                </span>
+                {/* <span className="navbar-text">
+                <a className="nav-link" href="#">
+                <i className="fas fa-search"></i>
+                    </a>
+                  
+                </span> */}
+                <div className={`search ${open ? 'active' : ''}`} >
+                  <input type="text" name="search" id="search" placeholder="Search..." />
+                  <div className="icon" onClick={() => setOpen(!open)}>
+                  <i className={`fas ${open ? 'fa-times' : 'fa-search'}`}></i>
+                  </div>
+                </div>
               </div>
             </nav>
           </div>
