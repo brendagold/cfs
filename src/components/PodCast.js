@@ -33,7 +33,7 @@ class PodCast extends Component {
     return (
       <>
         <div className="row py-4 mr-1 text-center">
-          <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 scroll-y-hidden">
+          <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 scroll-y-hidden mb-sm-3">
             <h2 className=" font-weight-bold d-inline">PODCAST</h2>
           </div>
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 scroll-y-hidden">

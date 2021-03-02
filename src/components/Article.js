@@ -8,10 +8,9 @@ import image3 from "../images/article3.png";
 import image4 from "../images/article4.png";
 import $ from "jquery";
 
-
 const Article = () => {
   const options = {
-      dots: false,
+    dots: false,
     responsive: {
       0: {
         items: 1,
@@ -30,12 +29,19 @@ const Article = () => {
   };
   return (
     <>
-    <div className="row py-4 latest-news-carousel-inner-bg">
-        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4">
+      <div className="row py-4 latest-news-carousel-inner-bg">
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
           <h4 className="scroll-y-hidden font-weight-bold pl-5">LATEST</h4>
           <h4 className="scroll-y-hidden font-weight-bold pl-5">
             ARTICLE NEWS
           </h4>
+          
+        </div>
+        <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6 mt-md-4">
+            <a href="">
+              <span className="article-btn more-link text-dark">View All</span>
+            </a>
+          
         </div>
       </div>
       <div className="article-caro latest-news-carousel-inner-bg">

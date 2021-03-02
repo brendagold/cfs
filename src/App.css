@@ -449,6 +449,19 @@ div.card-horizontal.mb-6 > img {
     font-size: 1.1rem;
   }
 
+  .article-btn {
+    margin-left: 35%;
+    
+  }
+
+  footer .card-img {
+    height: 246px;
+  }
+
+  footer .card {
+    height: 246px;
+  }
+
   .h3,
   h3 {
     font-size: 1.25rem;
@@ -465,7 +478,7 @@ div.card-horizontal.mb-6 > img {
   }
 
   .more-link {
-    font-size: 0.3rem !important;
+    font-size: 0.5rem !important;
   }
 
   .top-carousel-indicators {

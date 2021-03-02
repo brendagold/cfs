@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-xl-8 col-lg-8 col-md-7 col-sm-12 px-0">
-          <div className="card pb-5 pb-md-0  text-center">
+          <div className="card pb-5 pb-md-0 pb-sm-0  text-center">
             <img className="card-img" src={footer} alt="Card image" />
             <div className="card-img-overlay img-overlay-dark">
               <div className="row">
@@ -117,7 +117,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="row mt-3">
+              <div className="row mt-3 mb-sm-2">
                 <div className="col-md-12">
                   <p className="text-center color-gray">
                     <i className="far fa-copyright"></i> Copyright 2020 Cerberus
