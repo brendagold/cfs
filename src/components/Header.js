@@ -11,8 +11,8 @@ const Header = () => {
           <img src={logo} alt="logo" className="pl-xl-5 pl-lg-3 " />
         </a>
       </div>
-      <div className="col-xl-9 col-lg-9 col-md-9 col-sm-6">
-        <div className="row">
+      <div className="col-xl-9 col-lg-9 col-md-9 col-sm-6 mt-3">
+        {/* <div className="row">
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 border-bottom header-border-color text-right pt-3 pr-4">
             <label>
               <a href="">
@@ -21,7 +21,7 @@ const Header = () => {
               /<a href=""> SIGN UP</a>
             </label>
           </div>
-        </div>
+        </div> */}
         <div className="row">
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
             <nav className="navbar navbar-expand-lg navbar-dark ">
@@ -47,68 +47,71 @@ const Header = () => {
                       Home <span className="sr-only">(current)</span>
                     </a>
                   </li> */}
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       NFL
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       NCAAF
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       STATS
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       FANTASY
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       ARTICLES
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       NEWS
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       HELP
                     </a>
                   </li>
-                  <li className="nav-item pr-xl-5 pr-lg-4">
+                  <li className="nav-item pr-xl-3 pr-lg-3">
                     <a className="nav-link" href="#">
                       ABOUT
                     </a>
                   </li>
 
-                  <li className="nav-item pr-xl-5 pr-lg-4">
-                  <div className={`search ${open ? "active" : ""}`}>
-                  <input
-                    type="text"
-                    name="search"
-                    id="search"
-                    placeholder="Search..."
-                    style={{ display: open ? "block" : "none" }}
-                  />
-                  <div className="icon" onClick={() => setOpen(!open)}>
-                    <i className={`fas ${open ? "fa-times" : "fa-search"}`}></i>
-                  </div>
-                </div>
+                  <li className="nav-item pr-xl-3 pr-lg-3">
+                    <a className="nav-link" href="#">
+                      LOGIN/SIGNUP
+                    </a>
+                  </li>
+
+                  <li className="nav-item pr-xl-3 pr-lg-3">
+                    <div className={`search ${open ? "active" : ""}`}>
+                      <input
+                        type="text"
+                        name="search"
+                        id="search"
+                        placeholder="Search..."
+                        style={{ display: open ? "block" : "none" }}
+                      />
+                      <div className="icon" onClick={() => setOpen(!open)}>
+                        <i
+                          className={`fas ${open ? "fa-times" : "fa-search"}`}
+                        ></i>
+                      </div>
+                    </div>
                   </li>
                 </ul>
-                {/* <span className="navbar-text">
-                <a className="nav-link" href="#">
-                <i className="fas fa-search"></i>
-                    </a>
-                  
-                </span> */}
+              
                 {/* <div className={`search ${open ? "active" : ""}`}>
                   <input
                     type="text"

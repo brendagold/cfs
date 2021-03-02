@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className="row">
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 bg-dark">
+        <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12 bg-dark">
           <div className="container footer-sizing px-0">
             <img src={logo} alt="logo" className=" logo-sm " />
             <p className="pl-3 mt-2">1145 Forrest St.</p>
@@ -17,7 +17,7 @@ const Footer = () => {
             <p className="pl-3">cerberusfootballfantasy@example.com</p>
           </div>
         </div>
-        <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 px-0">
+        <div className="col-xl-8 col-lg-8 col-md-7 col-sm-12 px-0">
           <div className="card pb-5 pb-md-0  text-center">
             <img className="card-img" src={footer} alt="Card image" />
             <div className="card-img-overlay img-overlay-dark">

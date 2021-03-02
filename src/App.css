@@ -3,7 +3,8 @@
   overflow-x: hidden;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: white;
   text-decoration: none;
 }
@@ -13,7 +14,7 @@ a, a:hover {
 }
 
 .color-gray {
-  color: #2f2c2c !important;
+  color: #a09797 !important;
 }
 
 .article-car-img {
@@ -24,7 +25,6 @@ a, a:hover {
 header {
   background-color: black;
   color: white;
-
 }
 
 .header-border-color {
@@ -115,6 +115,7 @@ header {
 .card-text-position {
   color: white;
   top: 5rem;
+  height: 80px;
 }
 
 .card-text-position-two {
@@ -150,12 +151,14 @@ header {
   border-radius: unset !important;
 }
 
-.card-img, .card-img-bottom {
+.card-img,
+.card-img-bottom {
   border-bottom-right-radius: unset !important;
   border-bottom-left-radius: unset !important;
 }
 
-.card-img, .card-img-top {
+.card-img,
+.card-img-top {
   border-top-left-radius: unset !important;
   border-top-right-radius: unset !important;
 }
@@ -248,28 +251,28 @@ header {
   width: fit-content;
 }
 
-.article-caro img  {  
-
-        height: 460px;
-        width:100%;
-        
-} 
+.article-caro img {
+  height: 460px;
+  width: 100%;
+}
 
 .article-caro {
   overflow: hidden;
 }
 
-.owl-item {height: 0;}    
-.owl-item.active {height: auto;}
-
-
+.owl-item {
+  height: 0;
+}
+.owl-item.active {
+  height: auto;
+}
 
 /* .article-caro .small-img {
   width: 221px !important;
   height: 221px !important;
 } */
 
- div.card-horizontal.mb-6 > img {
+div.card-horizontal.mb-6 > img {
   width: auto !important;
   height: auto !important;
 }
@@ -297,196 +300,211 @@ header {
 } */
 
 @media only screen and (max-width: 1024px) {
-
   .latest-news-card-body-md {
-      background: white;
-      position: absolute;
-      bottom: 1.48rem;
-      left: 3rem;
-      right: 0.9rem;
-      padding: 0.6rem;
+    background: white;
+    position: absolute;
+    bottom: 1.48rem;
+    left: 3rem;
+    right: 0.9rem;
+    padding: 0.6rem;
   }
   .latest-news-card-md {
-      width: 29vw;
-      left: 36%;
+    width: 29vw;
+    left: 36%;
   }
   .latest-news-card-sm {
-      line-height: 1;
-      font-size: 0.9rem;
-      font-weight: normal;
+    line-height: 1;
+    font-size: 0.9rem;
+    font-weight: normal;
   }
   .latest-news-card-two-sm {
-      line-height: 1;
-      font-size: 0.9rem;
-      font-weight: normal;
+    line-height: 1;
+    font-size: 0.9rem;
+    font-weight: normal;
   }
 }
 @media only screen and (min-width: 1440px) {
-
   .latest-news-card-sm {
-      top: 3vh;
+    top: 3vh;
   }
   .latest-news-card-two-sm {
-      top: 24vh;
+    top: 24vh;
   }
   .latest-news-img-lg {
-      width: 54.9vw;
+    width: 54.9vw;
   }
   .latest-news-card-md {
-      width: 32vw;
-      left: 37%;
-      top: 1.2rem;
+    width: 32vw;
+    left: 37%;
+    top: 1.2rem;
   }
   .latest-news-card-body-md {
-      bottom: 2.4rem;
-      left: 3rem;
-      right: 1.5rem;
+    bottom: 2.4rem;
+    left: 3rem;
+    right: 1.5rem;
   }
 }
 @media only screen and (max-width: 768px) {
   .contianer-about-card {
-      position: absolute;
-      top: 2rem;
-      right: 0;
-      padding-right: 1rem !important;
+    position: unset;
+    top: 2rem;
+    right: 0;
+    padding-right: 1rem !important;
   }
 
   .carousel-caption {
-      top: 3rem;
-      left: 1rem;
-      bottom: auto;
+    top: 3rem;
+    left: 1rem;
+    bottom: auto;
   }
 
   .t-text {
-      line-height: 0.9;
-      text-align: left !important;
-      font-size: .7rem;
-      overflow-y: hidden;
+    line-height: 0.9;
+    text-align: left !important;
+    font-size: 0.7rem;
+    overflow-y: hidden;
   }
 
+  #root > div > div:nth-child(10) > div:nth-child(2) > div > div > p:nth-child(2) {
+    margin-bottom: 60px;
+  }
+
+  .card-text:last-child {
+    margin-bottom: 0;
+    margin-left: 10rem;
+}
   .latest-news-card-body-md {
-      bottom: 1.18rem;
-      left: 3.2rem;
-      right: 0.7rem;
+    bottom: 1.18rem;
+    left: 3.2rem;
+    right: 0.7rem;
   }
 
   .more-link-sizing {
-      font-size: 0.7rem;
+    font-size: 0.7rem;
   }
 
   .card-text-sizing {
-      font-size: 0.9rem !important;
+    font-size: 0.9rem !important;
+    left: 2rem !important;
   }
 
   .latest-news-img-lg {
-      width: 60vw !important;
+    width: 60vw !important;
   }
   .latest-news-card-two-sm {
-      top: 17vh;
+    top: 17vh;
   }
   .latest-news-card-sm {
-      top: 0;
+    top: 0;
   }
   .latest-news-card-md {
-      left: 44%;
+    left: 44%;
   }
-  .about-us-img-card{
-      width: 48rem;
+  .about-us-img-card {
+    width: 48rem;
   }
   .footer-list {
-      line-height: 0.1;
+    line-height: 0.1;
   }
-  .copy-right{
-      text-align: left !important;
-      padding-left: 5rem !important;
-      padding-top: 0.4rem;
+  .copy-right {
+    text-align: left !important;
+    padding-left: 5rem !important;
+    padding-top: 0.4rem;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .first-right-score-position {
-      top: 2.4rem !important;
-      left: 9.5rem !important;
+    top: 2.4rem !important;
+    left: 9.5rem !important;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 200px;
+  }
+
+  header .row {
+    height: 60px;
   }
   .contianer-about-card {
-      position: unset;
-      top: 2rem;
-      right: 0;
-      padding-right: 1rem !important;
-      padding-left: 1rem !important;
+    position: unset;
+    top: 2rem;
+    right: 0;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
   .card-text-sizing {
-      font-size: 1.4rem;
+    font-size: 1.4rem;
   }
 
   .card-text-position {
-      color: white;
-      line-height: 1;
-      top: 2rem;
+    color: white;
+    line-height: 1;
+    top: 2rem;
   }
 
   .card-text-position-two {
-      top: 10rem !important;
-      line-height: 0.7;
-      font-size: 1.1rem;
+    top: 10rem !important;
+    line-height: 0.7;
+    font-size: 1.1rem;
   }
 
-  .h3, h3 {
-      font-size: 1.25rem;
+  .h3,
+  h3 {
+    font-size: 1.25rem;
   }
 
-  .h1, h1 {
-      font-size: 0.9rem;
+  .h1,
+  h1 {
+    font-size: 0.9rem;
   }
 
-  .p, p {
-      font-size: 0.7rem !important;
+  .p,
+  p {
+    font-size: 0.7rem !important;
   }
 
   .more-link {
-      font-size: 0.3rem !important;
+    font-size: 0.3rem !important;
   }
 
   .top-carousel-indicators {
-      bottom: -1rem !important;
-      left: 1rem !important;
-     
+    bottom: -1rem !important;
+    left: 1rem !important;
   }
 
   .carousel-inner .carousel-item > div {
-      display: block;
+    display: block;
   }
 
   .latest-news-img-lg {
-      width: 100% !important;
+    width: 100% !important;
   }
 
   .carousel-caption {
-      top: -1rem;
-      left: 0.7rem;
+    top: -1rem;
+    left: 0.7rem;
   }
 
   .footer-list {
-      border: none !important;
-      line-height: 0.4rem;
-      overflow-y: hidden;
-      font-size: 0.7rem;
+    border: none !important;
+    line-height: 0.4rem;
+    overflow-y: hidden;
+    font-size: 0.7rem;
   }
 
   .list-group-item {
-      padding: 0.4rem 1.25rem !important;
+    padding: 0.4rem 1.25rem !important;
   }
 
   .font-xs {
-      font-size: 0.5rem !important;
+    font-size: 0.5rem !important;
   }
-  .copy-right{
-      text-align: left !important;
-      padding-left: 3rem !important;
-      padding-top: 2rem;
+  .copy-right {
+    text-align: left !important;
+    padding-left: 3rem !important;
+    padding-top: 2rem;
   }
-
-  
 }
 
 .overflow-y-hidden {
@@ -527,8 +545,6 @@ header {
   margin-top: 20px;
 }
 
-
-
 .card-title {
   margin-top: 10px;
 }
@@ -558,11 +574,11 @@ header {
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item > div {
-      display: none;
+    display: none;
   }
 
   .carousel-inner .carousel-item > div:first-child {
-      display: block;
+    display: block;
   }
 
   .article-caro img {
@@ -582,8 +598,7 @@ header {
   .top-carousel-indicators {
     bottom: -1rem !important;
     left: 3.6rem !important;
-   
-}
+  }
 }
 
 .carousel-inner .carousel-item.active,
@@ -594,15 +609,14 @@ header {
 
 /* display 3 */
 @media (min-width: 768px) {
-
   .carousel-inner .carousel-item-right.active,
   .carousel-inner .carousel-item-next {
-      transform: translateX(33.333%);
+    transform: translateX(33.333%);
   }
 
   .carousel-inner .carousel-item-left.active,
   .carousel-inner .carousel-item-prev {
-      transform: translateX(-33.333%);
+    transform: translateX(-33.333%);
   }
 }
 
@@ -617,7 +631,7 @@ header {
 }
 
 .about-background:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 4rem;
   right: 48%;
@@ -673,20 +687,37 @@ header {
   height: fit-content;
 }
 
-
 /*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
-  background-color: #F5F5F5 !important;
+  background-color: #f5f5f5 !important;
 }
 
 ::-webkit-scrollbar {
   width: 8px !important;
   height: 4px !important;
-  background-color: #F5F5F5 !important;
+  background-color: #f5f5f5 !important;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: gray !important;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  footer .card {
+    height: 322px;
+  }
+
+  footer .card-img {
+    height: 322px;
+  }
+
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+
+  .carousel-inner .carousel-item > div {
+    display: block;
+  }
 }

@@ -69,10 +69,10 @@ class PodCast extends Component {
               >
                 <div className="carousel-inner w-100" role="listbox">
                   <div className="carousel-item podCastCarousel-item active">
-                    <div className="col-md-4">
+                    <div className=" col-lg-4 col-md-6">
                       <div className="card">
                         <img className="img-fluid" src={image1} />
-                        <div className="card-img-overlay img-overlay-light pl-md-5 pl-1 pt-md-5">
+                        <div className="card-img-overlay img-overlay-light pl-md-3 pl-1 pt-md-3">
                           <p className="card-text font-sm">
                             <i className="fas fa-video"></i>
                           </p>
@@ -92,10 +92,10 @@ class PodCast extends Component {
                     </div>
                   </div>
                   <div className="carousel-item podCastCarousel-item">
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-6">
                       <div className="card">
                         <img className="img-fluid" src={image2} />
-                        <div className="card-img-overlay img-overlay-blue-gradient text-white pl-md-5 pl-1 pt-md-5">
+                        <div className="card-img-overlay img-overlay-blue-gradient text-white pl-md-3 pl-1 pt-md-3">
                           <p className="card-text font-sm">
                             <i className="fas fa-video"></i>
                           </p>
@@ -115,10 +115,10 @@ class PodCast extends Component {
                     </div>
                   </div>
                   <div className="carousel-item podCastCarousel-item">
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-6">
                       <div className="card">
                         <img className="img-fluid" src={image3} />
-                        <div className="card-img-overlay img-overlay-light pl-md-5 pl-1 pt-md-5">
+                        <div className="card-img-overlay img-overlay-light pl-md-3 pl-1 pt-md-3">
                           <p className="card-text font-sm">
                             <i className="fas fa-camera"></i>
                           </p>

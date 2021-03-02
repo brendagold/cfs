@@ -26,7 +26,7 @@ const HighlightWeek = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 m-0">
           <div className="card ">
             <img className="card-img" src={image1} alt="Card image" />
             <div className="card-img-overlay img-overlay-black">
@@ -39,7 +39,7 @@ const HighlightWeek = () => {
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 m-0">
           <div className="card ">
             <img className="card-img" src={image2} alt="Card image" />
             <div className="card-img-overlay img-overlay-red ">
@@ -47,7 +47,7 @@ const HighlightWeek = () => {
                 Match Previews + Week <br />5 Injury Analysis with Dr. <br />
                 <span className="text-border-bottom">David </span>Chao
               </p>
-              <p className="card-text card-text-sizing card-text-position-two text-white font-sm ">
+              <p className="card-text card-text-sizing  text-white font-sm ">
                 Lorem Ipsum is simply dummy text of the <br /> printing and
                 typesetting industry.
               </p>
@@ -60,7 +60,7 @@ const HighlightWeek = () => {
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 m-0">
           <div className="card ">
             <img className="card-img" src={image3} alt="Card image" />
             <div className="card-img-overlay img-overlay-black">
