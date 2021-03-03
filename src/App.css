@@ -426,8 +426,12 @@ div.card-horizontal.mb-6 > img {
   .podCastCarousel-item .card {
     height: 200px;
   }
-  header .row {
+  /* header .row {
     height: 60px;
+  } */
+
+  .navbar {
+    margin-right: 30px;
   }
   .contianer-about-card {
     position: unset;
