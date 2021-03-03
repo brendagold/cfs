@@ -41,4 +41,14 @@
     
 }
 
- 
+@media only screen and (max-width: 565px) { 
+    .search {
+        top: 7%;
+        left: 75%;
+    }
+
+    .search.active {
+        width: 250px;
+        left: 50%;
+    }
+}
