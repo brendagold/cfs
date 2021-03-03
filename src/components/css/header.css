@@ -52,3 +52,15 @@
         left: 50%;
     }
 }
+
+@media only screen and (max-width: 1000px) { 
+    .search {
+        top: 7%;
+        left: 80%;
+    }
+
+    .search.active {
+        width: 250px;
+        left: 63%;
+    }
+}
