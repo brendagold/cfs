@@ -431,7 +431,7 @@ div.card-horizontal.mb-6 > img {
   } */
 
   .navbar {
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .contianer-about-card {
     position: unset;
